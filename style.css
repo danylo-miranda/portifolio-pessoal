@@ -400,42 +400,4 @@ body {
     }
 }
 
-/* ... Outros estilos ... */
-
-.menu-toggle {
-    display: none;
-    cursor: pointer;
-}
-
-.menu-items {
-    display: flex;
-    flex-direction: row;
-}
-
-@media screen and (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-    }
-
-    .menu-items {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        background-color: #333; /* Cor de fundo do menu responsivo */
-    }
-
-    .menu-items a {
-        padding: 15px;
-        text-align: center;
-        color: white;
-        text-decoration: none;
-        display: block;
-    }
-
-    .menu-items a:hover {
-        background-color: #555; /* Cor de fundo ao passar o mouse */
-    }
-}
+/* correção */
